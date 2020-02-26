@@ -102,7 +102,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qwq-yU-n0P">
                                 <rect key="frame" x="20" y="108" width="374" height="374"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Qwq-yU-n0P" secondAttribute="height" multiplier="1:1" id="C4U-G9-UXV"/>
                                 </constraints>
@@ -177,6 +177,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="o38-qp-PAP"/>
                     <connections>
+                        <outlet property="imgProfile" destination="Qwq-yU-n0P" id="FxL-by-Ewy"/>
                         <outlet property="lblAge" destination="pAR-tl-5ys" id="y4y-aC-7AP"/>
                         <outlet property="lblName" destination="c3m-Tc-VRQ" id="N7P-6E-pC5"/>
                         <outlet property="lblSalary" destination="RHr-Bf-FpW" id="rNk-Ld-Q29"/>

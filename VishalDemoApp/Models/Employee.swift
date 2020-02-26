@@ -13,7 +13,7 @@ struct Employee: Decodable {
     let name:String
     let salary:String
     let age:String
-    let profileImage:String
+    let profileImage:String = imageProfilePlaceHolder
     
     enum CodingKeys: String, CodingKey {
         case id

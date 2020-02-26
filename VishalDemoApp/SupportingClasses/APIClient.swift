@@ -8,6 +8,8 @@
 
 import Foundation
 
+let imageProfilePlaceHolder = "https://i.ya-webdesign.com/images/male-avatar-png-7.png"
+
 let baseUrl = "http://dummy.restapiexample.com/api/v1/"
 
 let employeeList = "employees"

@@ -12,6 +12,8 @@ class DetailViewController: UIViewController {
 
     var employee:Employee?
     
+    @IBOutlet weak var imgProfile: UIImageView!
+    
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var lblSalary: UILabel!
     @IBOutlet weak var lblAge: UILabel!
@@ -30,6 +32,9 @@ class DetailViewController: UIViewController {
         lblName.text = employee.name
         lblAge.text = employee.age
         lblSalary.text = employee.salary
+        
+        let url = URL(string: employee.profileImage)
+        imgProfile.kf.setImage(with: url)
     }
     
 }

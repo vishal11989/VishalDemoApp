@@ -7,10 +7,11 @@
 //
 
 import UIKit
-
+import Kingfisher
 class EmployeeCustomCell: UITableViewCell {
 
     @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var imgProfile: UIImageView!
     
     var employee:Employee?{
         didSet{
@@ -22,5 +23,8 @@ class EmployeeCustomCell: UITableViewCell {
         guard let employee = employee else { return }
         
         lblName.text = employee.name
+        
+        let url = URL(string: employee.profileImage)
+        imgProfile.kf.setImage(with: url)
     }
 }
