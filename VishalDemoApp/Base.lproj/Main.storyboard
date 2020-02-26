@@ -69,6 +69,9 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="T6t-ZG-o7u"/>
                                 </connections>
                             </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="NeK-W8-Wma">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -76,6 +79,8 @@
                             <constraint firstItem="1MA-HD-ZYL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="910-fH-Ovp"/>
                             <constraint firstItem="trd-3F-GLu" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="9Os-jp-SwN"/>
                             <constraint firstItem="trd-3F-GLu" firstAttribute="top" secondItem="1MA-HD-ZYL" secondAttribute="bottom" constant="8" symbolic="YES" id="AxG-dn-kAT"/>
+                            <constraint firstItem="NeK-W8-Wma" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GUI-4U-LIh"/>
+                            <constraint firstItem="NeK-W8-Wma" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Jud-ks-WAO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1MA-HD-ZYL" secondAttribute="trailing" id="Vjg-iJ-Jh7"/>
                             <constraint firstItem="trd-3F-GLu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="m8f-q4-Fxj"/>
                             <constraint firstItem="trd-3F-GLu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vrf-jA-nD2"/>
@@ -84,6 +89,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="LaP-Qw-bfU"/>
                     <connections>
+                        <outlet property="activity" destination="NeK-W8-Wma" id="tqX-TJ-mAH"/>
                         <outlet property="tblEmployee" destination="trd-3F-GLu" id="DdC-7B-e8s"/>
                         <segue destination="G8l-Ca-Fnh" kind="show" identifier="ShowEmployeeDetail" id="N5k-46-4gc"/>
                     </connections>

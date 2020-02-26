@@ -11,6 +11,7 @@ import UIKit
 class ListViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tblEmployee: UITableView!
+    @IBOutlet weak var activity: UIActivityIndicatorView!
     
     var arrEmployee = [Employee]()
     var employee:Employee?
@@ -28,6 +29,10 @@ class ListViewController: UIViewController,UITableViewDelegate, UITableViewDataS
     
     // MARK: - API Calls
     func loadEmployeeList(){
+        
+        activity.isHidden = false
+        activity.startAnimating()
+        
         let apiClient = APIClient()
         apiClient.fetch(url: employeeList) { (response: Result<ServiceResponse<[Employee]>, Error>) in
             switch response {
@@ -41,6 +46,8 @@ class ListViewController: UIViewController,UITableViewDelegate, UITableViewDataS
             
             DispatchQueue.main.async {
                 self.tblEmployee.reloadData()
+                self.activity.isHidden = true
+                self.activity.stopAnimating()
             }
         }
     }
