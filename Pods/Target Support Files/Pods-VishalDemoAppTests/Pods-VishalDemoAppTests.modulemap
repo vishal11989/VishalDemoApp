@@ -1,0 +1,6 @@
+framework module Pods_VishalDemoAppTests {
+  umbrella header "Pods-VishalDemoAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

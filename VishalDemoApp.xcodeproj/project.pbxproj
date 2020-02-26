@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AF709163BC643EAF217734E /* Pods_VishalDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3FE4B5E3D3183EB4DDAE04 /* Pods_VishalDemoAppTests.framework */; };
 		B5E748792405582900FABBA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E748782405582900FABBA5 /* AppDelegate.swift */; };
 		B5E7487B2405582900FABBA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7487A2405582900FABBA5 /* SceneDelegate.swift */; };
 		B5E748802405582900FABBA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E7487E2405582900FABBA5 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		B5E748A8240584EF00FABBA5 /* EmployeeCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E748A6240584EF00FABBA5 /* EmployeeCustomCell.swift */; };
 		B5E748A9240584EF00FABBA5 /* EmployeeCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E748A7240584EF00FABBA5 /* EmployeeCustomCell.xib */; };
 		B5E748AB24058F4E00FABBA5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E748AA24058F4E00FABBA5 /* DetailViewController.swift */; };
+		B8F8802075ACAF151A83DFFE /* Pods_VishalDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7599D2579FE776C33ACD69F6 /* Pods_VishalDemoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E3FE4B5E3D3183EB4DDAE04 /* Pods_VishalDemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalDemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		160BF7DB01D654BF0A3C6ED4 /* Pods-VishalDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalDemoApp.release.xcconfig"; path = "Target Support Files/Pods-VishalDemoApp/Pods-VishalDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		36A1AA5DA42D63C8A94FA242 /* Pods-VishalDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-VishalDemoApp/Pods-VishalDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7599D2579FE776C33ACD69F6 /* Pods_VishalDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A026D2C1E4DB2014ABDA74 /* Pods-VishalDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalDemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VishalDemoAppTests/Pods-VishalDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF091ECB80B42E2AAA248120 /* Pods-VishalDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalDemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-VishalDemoAppTests/Pods-VishalDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5E748752405582900FABBA5 /* VishalDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VishalDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E748782405582900FABBA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E7487A2405582900FABBA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F8802075ACAF151A83DFFE /* Pods_VishalDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,18 +71,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF709163BC643EAF217734E /* Pods_VishalDemoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D514B4F16A1CEB36400CF67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36A1AA5DA42D63C8A94FA242 /* Pods-VishalDemoApp.debug.xcconfig */,
+				160BF7DB01D654BF0A3C6ED4 /* Pods-VishalDemoApp.release.xcconfig */,
+				85A026D2C1E4DB2014ABDA74 /* Pods-VishalDemoAppTests.debug.xcconfig */,
+				AF091ECB80B42E2AAA248120 /* Pods-VishalDemoAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E7B7958B2A6604CD36C44AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7599D2579FE776C33ACD69F6 /* Pods_VishalDemoApp.framework */,
+				0E3FE4B5E3D3183EB4DDAE04 /* Pods_VishalDemoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5E7486C2405582900FABBA5 = {
 			isa = PBXGroup;
 			children = (
 				B5E748772405582900FABBA5 /* VishalDemoApp */,
 				B5E7488E2405583E00FABBA5 /* VishalDemoAppTests */,
 				B5E748762405582900FABBA5 /* Products */,
+				2D514B4F16A1CEB36400CF67 /* Pods */,
+				3E7B7958B2A6604CD36C44AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E748942405583E00FABBA5 /* Build configuration list for PBXNativeTarget "VishalDemoApp" */;
 			buildPhases = (
+				F5215EFC85D045398260FC81 /* [CP] Check Pods Manifest.lock */,
 				B5E748712405582900FABBA5 /* Sources */,
 				B5E748722405582900FABBA5 /* Frameworks */,
 				B5E748732405582900FABBA5 /* Resources */,
+				07457A4427DB7826A0B4D9CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E748972405583E00FABBA5 /* Build configuration list for PBXNativeTarget "VishalDemoAppTests" */;
 			buildPhases = (
+				F7428E46935B94A03721E4CC /* [CP] Check Pods Manifest.lock */,
 				B5E748872405583E00FABBA5 /* Sources */,
 				B5E748882405583E00FABBA5 /* Frameworks */,
 				B5E748892405583E00FABBA5 /* Resources */,
@@ -242,6 +278,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07457A4427DB7826A0B4D9CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VishalDemoApp/Pods-VishalDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VishalDemoApp/Pods-VishalDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VishalDemoApp/Pods-VishalDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5215EFC85D045398260FC81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VishalDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7428E46935B94A03721E4CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VishalDemoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5E748712405582900FABBA5 /* Sources */ = {
@@ -412,6 +512,7 @@
 		};
 		B5E748952405583E00FABBA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A1AA5DA42D63C8A94FA242 /* Pods-VishalDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,6 +531,7 @@
 		};
 		B5E748962405583E00FABBA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160BF7DB01D654BF0A3C6ED4 /* Pods-VishalDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +550,7 @@
 		};
 		B5E748982405583E00FABBA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A026D2C1E4DB2014ABDA74 /* Pods-VishalDemoAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +573,7 @@
 		};
 		B5E748992405583E00FABBA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF091ECB80B42E2AAA248120 /* Pods-VishalDemoAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
