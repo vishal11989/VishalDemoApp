@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7AF709163BC643EAF217734E /* Pods_VishalDemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3FE4B5E3D3183EB4DDAE04 /* Pods_VishalDemoAppTests.framework */; };
+		B5464D6524064C20007B472C /* APIClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5464D6424064C20007B472C /* APIClientTest.swift */; };
+		B5464D6724065935007B472C /* ListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5464D6624065935007B472C /* ListViewControllerTest.swift */; };
 		B5E748792405582900FABBA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E748782405582900FABBA5 /* AppDelegate.swift */; };
 		B5E7487B2405582900FABBA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7487A2405582900FABBA5 /* SceneDelegate.swift */; };
 		B5E748802405582900FABBA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E7487E2405582900FABBA5 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 		7599D2579FE776C33ACD69F6 /* Pods_VishalDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A026D2C1E4DB2014ABDA74 /* Pods-VishalDemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalDemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VishalDemoAppTests/Pods-VishalDemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF091ECB80B42E2AAA248120 /* Pods-VishalDemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalDemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-VishalDemoAppTests/Pods-VishalDemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5464D6424064C20007B472C /* APIClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientTest.swift; sourceTree = "<group>"; };
+		B5464D6624065935007B472C /* ListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewControllerTest.swift; sourceTree = "<group>"; };
 		B5E748752405582900FABBA5 /* VishalDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VishalDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E748782405582900FABBA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E7487A2405582900FABBA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +90,6 @@
 				85A026D2C1E4DB2014ABDA74 /* Pods-VishalDemoAppTests.debug.xcconfig */,
 				AF091ECB80B42E2AAA248120 /* Pods-VishalDemoAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				B5E7488F2405583E00FABBA5 /* VishalDemoAppTests.swift */,
+				B5464D6424064C20007B472C /* APIClientTest.swift */,
+				B5464D6624065935007B472C /* ListViewControllerTest.swift */,
 				B5E748912405583E00FABBA5 /* Info.plist */,
 			);
 			path = VishalDemoAppTests;
@@ -363,6 +368,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E748902405583E00FABBA5 /* VishalDemoAppTests.swift in Sources */,
+				B5464D6724065935007B472C /* ListViewControllerTest.swift in Sources */,
+				B5464D6524064C20007B472C /* APIClientTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
